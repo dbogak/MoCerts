@@ -42,7 +42,7 @@ class Certificate(models.Model):
     number = models.DecimalField(verbose_name='Номер сертификата', max_digits=20, decimal_places=0,
                                  default=cert_num)
     url = models.URLField(max_length=255, verbose_name='Ссылка на серимфикат',
-                          default=f'https://mcert.me/certificate/{cert_num}')
+                          default=f'https://mocerts.com/certificate/{cert_num}')
     nominal = models.IntegerField(verbose_name='Номинал', default=1)
 
     user1 = models.CharField(
