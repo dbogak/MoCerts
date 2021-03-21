@@ -6,7 +6,7 @@ from django.views.generic import TemplateView
 
 
 def main_page(request, *args, **kwargs):
-    return render(request, 'Home.html', {})
+    return render(request, 'index.html', {})
 
 
 def contacts(request):

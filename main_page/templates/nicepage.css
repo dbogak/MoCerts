@@ -32243,70 +32243,196 @@ a.u-link.u-text-hover-grey-90:hover {
 /*end-variables sitestylecss*/
 .u-header {
   background-image: none;
-}
-
-.u-header .u-sheet-1 {
-  min-height: 139px;
+  min-height: 137px;
 }
 
 .u-header .u-text-1 {
-  font-family: Audiowide;
   font-style: italic;
-  font-size: 2.75rem;
-  letter-spacing: 1px;
-  margin: 20px 0 0;
+  background-image: none;
+  font-family: Asset;
+  animation-duration: 1000ms;
+  text-shadow: 6px 4px 8px rgba(66,84,101,1);
+  font-weight: normal;
+  margin: 28px calc(((100% - 1140px) / 2) + 339px) 0 calc(((100% - 1140px) / 2));
+}
+
+.u-header .u-image-1 {
+  width: 51px;
+  height: 51px;
+  background-image: url("images/200119700670_340815.jpg");
+  background-position: 50% 50%;
+  margin: -45px calc(((100% - 1140px) / 2)) 0 auto;
 }
 
 .u-header .u-menu-1 {
-  margin: 20px auto 26px 53px;
+  margin: 28px auto 0;
 }
 
 .u-header .u-nav-1 {
   font-size: 1rem;
   letter-spacing: 0px;
-  font-weight: 700;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 .u-header .u-nav-2 {
-  font-size: 1.25rem;
+  font-size: 1rem;
+}
+
+.u-header .u-group-1 {
+  margin-top: -36px;
+  margin-bottom: 0;
+  min-height: 36px;
+  height: auto;
+}
+
+.u-header .u-container-layout-1 {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 @media (max-width: 1199px) {
+  .u-header {
+    min-height: 216px;
+  }
+
+  .u-header .u-text-1 {
+    width: auto;
+    margin-right: calc(((100% - 940px) / 2) + 73px);
+    margin-left: calc(((100% - 940px) / 2) + 44px);
+  }
+
+  .u-header .u-image-1 {
+    width: 51px;
+    height: 51px;
+    margin-top: 18px;
+    margin-right: calc(((100% - 940px) / 2));
+  }
+
   .u-header .u-menu-1 {
     width: auto;
-    margin-left: 44px;
+    margin-top: 28px;
+    margin-right: calc(((100% - 940px) / 2) + -80px);
+  }
+
+  .u-header .u-group-1 {
+    margin-top: -48px;
+    margin-bottom: 4px;
+    min-height: 60px;
+    height: auto;
+  }
+
+  .u-header .u-container-layout-1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 @media (max-width: 991px) {
+  .u-header {
+    min-height: 216px;
+  }
+
+  .u-header .u-text-1 {
+    margin-right: calc(((100% - 720px) / 2) + 510px);
+    margin-left: calc(((100% - 720px) / 2) + 34px);
+  }
+
+  .u-header .u-image-1 {
+    margin-right: calc(((100% - 720px) / 2));
+  }
+
   .u-header .u-menu-1 {
-    margin-left: 34px;
+    margin-right: calc(((100% - 720px) / 2) + -61px);
   }
 }
 @media (max-width: 767px) {
+  .u-header {
+    min-height: 180px;
+  }
+
+  .u-header .u-text-1 {
+    margin-top: 24px;
+    margin-right: calc(((100% - 540px) / 2));
+    margin-left: calc(((100% - 540px) / 2) + 26px);
+  }
+
+  .u-header .u-image-1 {
+    margin-top: 23px;
+    margin-right: calc(((100% - 540px) / 2) + 12px);
+  }
+
   .u-header .u-menu-1 {
-    margin-left: 26px;
+    margin-top: -37px;
+    margin-right: calc(((100% - 540px) / 2) + -46px);
+    margin-left: calc(((100% - 540px) / 2) + 34px);
+  }
+
+  .u-header .u-group-1 {
+    margin-top: -42px;
+  }
+
+  .u-header .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 @media (max-width: 575px) {
+  .u-header {
+    min-height: 202px;
+  }
+
   .u-header .u-text-1 {
-    font-size: 1.5rem;
+    width: 336px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: 8px;
+    margin-right: calc(((100% - 340px) / 2) + 12px);
   }
 
   .u-header .u-menu-1 {
-    margin-left: 16px;
+    margin-top: 25px;
+    margin-right: 339px;
+    margin-left: 81px;
+  }
+
+  .u-header .u-group-1 {
+    margin-bottom: 3px;
   }
 }
-.u-footer {
-  background-image: none;
-}
-
 .u-footer .u-sheet-1 {
   min-height: 120px;
 }
 
-.u-footer .u-text-1 {
-  width: 417px;
-  margin: 49px auto;
+.u-footer .u-social-icons-1 {
+  height: 32px;
+  min-height: 16px;
+  width: 158px;
+  min-width: 94px;
+  white-space: nowrap;
+  margin: 44px auto;
+}
+
+.u-footer .u-icon-1 {
+  height: 100%;
+  color: rgb(59, 89, 152) !important;
+}
+
+.u-footer .u-icon-2 {
+  height: 100%;
+  color: rgb(85, 172, 238) !important;
+}
+
+.u-footer .u-icon-3 {
+  height: 100%;
+  color: rgb(197, 54, 164) !important;
+}
+
+.u-footer .u-icon-4 {
+  height: 100%;
+  color: rgb(0, 122, 185) !important;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
@@ -32326,10 +32452,6 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
     min-height: 36px;
-  }
-
-  .u-footer .u-text-1 {
-    width: 340px;
   }
 }
 
