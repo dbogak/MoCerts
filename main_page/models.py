@@ -9,6 +9,7 @@ import random
 
 
 class User(models.Model):
+    '''Модель для пользователя'''
     tlg_id = models.IntegerField(
         unique=True, name='telegram_id', blank=True, default=None)
     username = models.CharField(
@@ -36,6 +37,7 @@ class User(models.Model):
 
 class Certificate(models.Model):
     date_cert = datetime.today()
+    # генерируем номер сертификата
     cert_num = date_cert.strftime("%d%m%y%H%M%f")
     number = models.DecimalField(verbose_name='Номер сертификата', max_digits=20, decimal_places=0,
                                  default=cert_num)
